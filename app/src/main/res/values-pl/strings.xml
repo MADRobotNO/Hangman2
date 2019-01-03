@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="hangman_title">Hangman</string>
+    <string name="start">Start</string>
+    <string name="exit">Wyjście</string>
+    <string name="language">Język</string>
+    <string name="choose">Wybierz język</string>
+    <string name="letter">Zgadnij literę:</string>
+    <string name="check">Sprawdź</string>
+    <string name="correct">Poprawnie</string>
+    <string name="fails">Przegrane:</string>
+    <string name="wins">Wygrane:</string>
+    <string name="words">Wyrazy:</string>
+    <string name="used">Użyto:</string>
+    <string name="letters_used">Użyte litery:</string>
+    <string name="choose_a_letter">Wybierz literę</string>
+    <string name="letter_already_used">Litera już użyta. Wybierz inną.</string>
+    <string name="game_over">Koniec gry.</string>
+    <string name="score">Twój wynik:</string>
+    <string name="good">Bardzo dobrze!</string>
+    <string name="help">Pomoc</string>
+    <string name="help_text">
+        Gracz musi odgadnąć słowo. Słowo to ukryte jest za liniami. Ilość linii wskazuje na długość
+        słowa gdzie każda linia to jedna litera. Jeśli podana litera znajduje się w słowie, zostaje
+        ona umieszczona w wyrazie na właściwej pozycji. Jeśli podana litera nie znajduje się w
+        wyrazie zostaje dodany element na rysunku Hangman. Gra zostaje zakończona kiedy gracz
+        odgadnie wszystkie litery lub gdy cały rysunek Hangman zostanie ukończony.
+    </string>
+
+    <string-array name="words_arr">
+
+        <item>PIES</item>
+        <item>JABŁKO</item>
+        <item>DRZEWO</item>
+        <item>DOM</item>
+        <item>OKNO</item>
+        <item>SAMOCHÓD</item>
+        <item>LODÓWKA</item>
+        <item>PRYSZNIC</item>
+        <item>ŁÓŻKO</item>
+        <item>UBRANIA</item>
+
+    </string-array>
+
+</resources>

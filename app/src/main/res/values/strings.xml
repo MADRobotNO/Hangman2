@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="hangman_title">Hangman</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="language">Language</string>
+    <string name="choose">Choose language</string>
+    <string name="letter">Guess letter:</string>
+    <string name="check">Check</string>
+    <string name="correct">Correct</string>
+    <string name="fails">Fails:</string>
+    <string name="wins">Wins:</string>
+    <string name="words">Words:</string>
+    <string name="used">Used:</string>
+    <string name="letters_used">Letters used:</string>
+    <string name="choose_a_letter">Pick a letter</string>
+    <string name="letter_already_used">Letter already used. Pick another.</string>
+    <string name="game_over">Game over.</string>
+    <string name="score">Your score is:</string>
+    <string name="good">Good!</string>
+    <string name="help">Help</string>
+    <string name="help_text">You have to guess the word. Word You will try to guess is hidden behind
+        a row of lines and each line is one letter. If you suggest a letter contained in the word,
+        this letter will be written in all the correct positions.
+        If the letter suggested is not included in the word, one of the elements in the Hangman
+        picture will be drawn. The game is over when the player has solved the entire word or when
+        the drawing is complete.
+    </string>
+
+
+    <string-array name="words_arr">
+
+        <item>DOG</item>
+        <item>APPLE</item>
+        <item>TREE</item>
+        <item>HOUSE</item>
+        <item>WINDOW</item>
+        <item>CAR</item>
+        <item>REFRIGERATOR</item>
+        <item>SHOWER</item>
+        <item>BED</item>
+        <item>CLOTHES</item>
+
+    </string-array>
+
+
+</resources>

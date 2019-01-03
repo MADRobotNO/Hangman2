@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="hangman_title">Hangman</string>
+    <string name="start">Start</string>
+    <string name="exit">Avslutt</string>
+    <string name="language">Språk</string>
+    <string name="choose">Velg språk</string>
+    <string name="letter">Gjett bokstav:</string>
+    <string name="check">Sjekk</string>
+    <string name="correct">Korrekt</string>
+    <string name="fails">Feil:</string>
+    <string name="wins">Korrekt:</string>
+    <string name="words">Ord:</string>
+    <string name="used">Ord spilt:</string>
+    <string name="letters_used">Brukte bokstaver:</string>
+    <string name="choose_a_letter">Velg bokstav</string>
+    <string name="letter_already_used">Bokstaven allerede brukt. Velg annen.</string>
+    <string name="game_over">Spillet er over.</string>
+    <string name="score">Ditt resultat:</string>
+    <string name="good">Bra!</string>
+    <string name="help">Hjelp</string>
+    <string name="help_text">Du skal gjette ordet. Ordet du skal forsøke å gjette seg frem til,
+        angis med en rad med streker, der hver strek angir én bokstav. Hvis du foreslår en bokstav
+        som finnes i ordet, skrives denne bokstaven i alle de riktige posisjonene. Hvis bokstaven
+        som foreslås ikke er med i ordet, tegnes det ett av elementene i Hangman-diagrammet. Spillet
+        er over når spilleren har løst hele ordet eller når tegningen er fullført.
+    </string>
+
+    <string-array name="words_arr">
+
+        <item>HUND</item>
+        <item>EPLE</item>
+        <item>TRE</item>
+        <item>HUS</item>
+        <item>VINDU</item>
+        <item>BIL</item>
+        <item>KJØLESKAP</item>
+        <item>DUSJ</item>
+        <item>SENG</item>
+        <item>KLÆR</item>
+
+    </string-array>
+
+</resources>
